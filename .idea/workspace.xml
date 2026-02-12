@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5937e7b-4e6f-4c15-b2cf-be9017421156" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/angle_draw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkkeep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cudatime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d435.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onnxfps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict_fig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/totalfps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/mycfg/yolov9m-multi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/mycfg/yolov9s-multi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ultralytics/cfg/mycfg/yolov9t-multi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuanclustershuo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angle.py" beforeDir="false" afterPath="$PROJECT_DIR$/angle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angle_compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/angle_compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angle_statistics_results.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/angle_statistics_results.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/field_validation_report.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/field_validation_report.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p.py" beforeDir="false" afterPath="$PROJECT_DIR$/p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printlayers.py" beforeDir="false" afterPath="$PROJECT_DIR$/printlayers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/result11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/size_try0.py" beforeDir="false" afterPath="$PROJECT_DIR$/size_try0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/size_try1.py" beforeDir="false" afterPath="$PROJECT_DIR$/size_try1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/size_try3.py" beforeDir="false" afterPath="$PROJECT_DIR$/angle-obb-ruijiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/train-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/cfg/models/v9/yolov9m.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics/cfg/models/v9/yolov9m.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/engine/predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics/engine/predictor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/engine/results.py" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics/engine/results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/models/yolo/multi/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics/models/yolo/multi/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/nn/modules/head.py" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics/nn/modules/head.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/nn/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ultralytics/nn/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/val.py" beforeDir="false" afterPath="$PROJECT_DIR$/val.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_isat_comparison_clustered.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_isat_comparison_clustered.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolo_p_to_isat.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo_p_to_isat.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Text file" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DIANSLEE&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DIANSLEE/ultralytics-main-multi.git&quot;,
+    &quot;accountId&quot;: &quot;31369c89-c757-4e59-9fda-049ae7fab38c&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.conda/envs/python10/Lib/site-packages/torch/nn/modules/module.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.conda/envs/python10/Lib/site-packages/torch/utils/_contextlib.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/site-packages/pandas/io/common.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/site-packages/sklearn/decomposition/_pca.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/site-packages/torch/nn/modules/loss.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/site-packages/torch/nn/modules/module.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/site-packages/torch/utils/_contextlib.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2njE9cUPAge7dTgyvqFstjyGF9C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.01.executor": "Run",
+    "Python.CAFM.executor": "Run",
+    "Python.SimAm.executor": "Run",
+    "Python.angle-2k.executor": "Run",
+    "Python.angle.executor": "Run",
+    "Python.p.executor": "Debug",
+    "Python.predict.executor": "Run",
+    "Python.predict_outofmemory.executor": "Debug",
+    "Python.printlayers.executor": "Run",
+    "Python.size_try0.executor": "Run",
+    "Python.size_try1.executor": "Run",
+    "Python.size_try2.executor": "Run",
+    "Python.size_try3.executor": "Run",
+    "Python.train-myblock.executor": "Run",
+    "Python.trans.executor": "Run",
+    "Python.val.executor": "Run",
+    "Python.yuanclustershuo.executor": "Run",
+    "Python.zed_video.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/dians/Desktop/ultralytics-main-multi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "to.speed.mode.migration.done": "true",
+    "two.files.diff.last.used.file": "C:/Users/dians/Desktop/ultralytics-main-multi/ultralytics/cfg/mycfg/yolov9s-multi.yaml",
+    "two.files.diff.last.used.folder": "C:/Users/dians/Desktop/ultralytics-main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dians\Desktop\ultralytics-main-multi" />
+      <recent name="C:\Users\dians\Desktop\ultralytics-main-multi\ultralytics\cfg\mycfg" />
+      <recent name="C:\Users\dians\Desktop\ultralytics-main-multi\ultralytics\cfg\datasets" />
+      <recent name="C:\Users\dians\Desktop\ultralytics-main-multi\ultralytics\cfg\models\v8" />
+      <recent name="C:\Users\dians\Desktop\ultralytics-main\ultralytics\cfg\mycfg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dians\Desktop\ultralytics-main-multi\ultralytics\nn\myblocks" />
+      <recent name="C:\Users\dians\Desktop\ultralytics-main-multi\runs\multi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.val">
+    <configuration name="angle_draw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ultralytics-main-multi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/angle_draw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="p" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ultralytics-main-multi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict_fig" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ultralytics-main-multi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/predict_fig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="size_try1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ultralytics-main-multi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/size_try1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train-ssh" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ultralytics-main-multi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train-ssh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="val" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ultralytics-main-multi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/val.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.val" />
+        <item itemvalue="Python.predict_fig" />
+        <item itemvalue="Python.p" />
+        <item itemvalue="Python.angle_draw" />
+        <item itemvalue="Python.size_try1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-PY-252.26199.97" />
+        <option value="bundled-python-sdk-bb9e053df9cb-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.97" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5937e7b-4e6f-4c15-b2cf-be9017421156" name="Changes" comment="" />
+      <created>1729477935162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729477935162</updated>
+      <workItem from="1729477936324" duration="4724000" />
+      <workItem from="1729498561349" duration="7153000" />
+      <workItem from="1729566741363" duration="1266000" />
+      <workItem from="1729582371995" duration="2532000" />
+      <workItem from="1729585818331" duration="164000" />
+      <workItem from="1729586132598" duration="20419000" />
+      <workItem from="1730948924604" duration="3613000" />
+      <workItem from="1731632958936" duration="47919000" />
+      <workItem from="1732087634636" duration="8770000" />
+      <workItem from="1732106854423" duration="1267000" />
+      <workItem from="1732149397751" duration="8439000" />
+      <workItem from="1732781094491" duration="27721000" />
+      <workItem from="1733908031066" duration="20607000" />
+      <workItem from="1734087822923" duration="48387000" />
+      <workItem from="1734795301219" duration="5749000" />
+      <workItem from="1734912788159" duration="14114000" />
+      <workItem from="1735369193511" duration="98115000" />
+      <workItem from="1739439470069" duration="10999000" />
+      <workItem from="1739521670386" duration="176595000" />
+      <workItem from="1741344680235" duration="43065000" />
+      <workItem from="1741654780357" duration="2118000" />
+      <workItem from="1741941226593" duration="598000" />
+      <workItem from="1742264424837" duration="29623000" />
+      <workItem from="1742886883847" duration="12034000" />
+      <workItem from="1744265476859" duration="4342000" />
+      <workItem from="1748939654352" duration="1378000" />
+      <workItem from="1750922921744" duration="613000" />
+      <workItem from="1753272612050" duration="1377000" />
+      <workItem from="1754142778686" duration="995000" />
+      <workItem from="1754266899360" duration="2660000" />
+      <workItem from="1757316255999" duration="887000" />
+      <workItem from="1759887075524" duration="3589000" />
+      <workItem from="1759935451950" duration="12321000" />
+      <workItem from="1760314303402" duration="3041000" />
+      <workItem from="1760488029193" duration="7837000" />
+      <workItem from="1761044867613" duration="34276000" />
+      <workItem from="1761143272403" duration="1033000" />
+      <workItem from="1761144312575" duration="32929000" />
+      <workItem from="1761395879408" duration="767000" />
+      <workItem from="1761396660803" duration="15656000" />
+      <workItem from="1761552540260" duration="25000" />
+      <workItem from="1761617918284" duration="2699000" />
+      <workItem from="1761636481785" duration="430000" />
+      <workItem from="1761636917837" duration="36235000" />
+      <workItem from="1761970574722" duration="7682000" />
+      <workItem from="1762000025055" duration="235000" />
+      <workItem from="1762000729378" duration="1797000" />
+      <workItem from="1762131520140" duration="3000" />
+      <workItem from="1762131533478" duration="1952000" />
+      <workItem from="1762133788593" duration="16937000" />
+      <workItem from="1762330545327" duration="10000" />
+      <workItem from="1762394219700" duration="5606000" />
+      <workItem from="1762828855875" duration="6202000" />
+      <workItem from="1762907534141" duration="178000" />
+      <workItem from="1762907724199" duration="25391000" />
+      <workItem from="1763472128822" duration="310000" />
+      <workItem from="1763473182662" duration="4363000" />
+      <workItem from="1764233605365" duration="593000" />
+      <workItem from="1765075765889" duration="3505000" />
+      <workItem from="1765599808625" duration="5366000" />
+      <workItem from="1766454004454" duration="1980000" />
+      <workItem from="1767079525742" duration="4997000" />
+      <workItem from="1767786216753" duration="607000" />
+    </task>
+    <task id="LOCAL-00001" summary="first repository">
+      <option name="closed" value="true" />
+      <created>1731916611931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731916611931</updated>
+    </task>
+    <task id="LOCAL-00002" summary="11.30  loss my computer">
+      <option name="closed" value="true" />
+      <created>1732940187946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732940187946</updated>
+    </task>
+    <task id="LOCAL-00003" summary="11.30  loss my computer">
+      <option name="closed" value="true" />
+      <created>1732940706993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732940706993</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2025.2.21 compete most of it">
+      <option name="closed" value="true" />
+      <created>1740106483857</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740106483857</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2025.2.21 compete most of it">
+      <option name="closed" value="true" />
+      <created>1761969196847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761969196847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first">
+      <option name="closed" value="true" />
+      <created>1761984826403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761984826403</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first repository" />
+    <MESSAGE value="11.30  loss my computer" />
+    <MESSAGE value="2025.2.21 compete most of it" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/01.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/01.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/tal.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/model.py</url>
+          <line>738</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/model.py</url>
+          <line>804</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/tasks.py</url>
+          <line>532</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/loss.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/tasks.py</url>
+          <line>1100</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/tasks.py</url>
+          <line>1106</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/data/utils.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/model.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/model.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/model.py</url>
+          <line>790</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/data/dataset.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/data/dataset.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>661</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>263</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>599</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>436</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>550</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/model.py</url>
+          <line>787</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/train.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/train.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/val.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/val.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/val.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/val.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/val.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/val.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/predict.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>293</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/detect/train.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>301</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/contextlib.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>793</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/loss.py</url>
+          <line>805</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>428</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/train.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/loss.py</url>
+          <line>763</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/validator.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/validator.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/detect/val.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/validator.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>662</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/val.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/model.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/data/dataset.py</url>
+          <line>282</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train-1.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/data/dataset.py</url>
+          <line>346</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/data/dataset.py</url>
+          <line>348</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/data/dataset.py</url>
+          <line>347</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/data/dataset.py</url>
+          <line>349</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train-1.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/tasks.py</url>
+          <line>1069</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/plotting.py</url>
+          <line>1094</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/results.py</url>
+          <line>619</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/site-packages/sklearn/decomposition/_pca.py</url>
+          <line>606</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/site-packages/sklearn/decomposition/_pca.py</url>
+          <line>611</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../../anaconda3/envs/yolov8/Lib/site-packages/sklearn/decomposition/_pca.py</url>
+          <line>535</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>498</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>369</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/printlayers.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/predict.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle_compare.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle_compare.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle_compare.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/p.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle_compare.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle_compare.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/metrics.py</url>
+          <line>1322</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/metrics.py</url>
+          <line>1293</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/metrics.py</url>
+          <line>1346</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/utils/metrics.py</url>
+          <line>599</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zed_video.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zed_video.py</url>
+          <line>275</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zed_video.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/zed_video.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/validator.py</url>
+          <line>207</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/angle.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/myblocks/SimAm.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/trainer.py</url>
+          <line>206</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/size_try0.py</url>
+          <line>585</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/size_try0.py</url>
+          <line>569</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yolo_p_to_isat.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>630</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>633</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>238</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/segment/predict.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/p.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/p.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/model.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>639</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/nn/modules/head.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/size_try1.py</url>
+          <line>213</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/size_try1.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/size_try0.py</url>
+          <line>631</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/predict.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/size_try0.py</url>
+          <line>251</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/onnxfps.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fps.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/model.py</url>
+          <line>556</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/predictor.py</url>
+          <line>261</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/predict.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/predictor.py</url>
+          <line>281</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/predict.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/multi/predict.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/predictor.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/predictor.py</url>
+          <line>215</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/detect/val.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/yolo/detect/val.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/size_try1.py</url>
+          <line>462</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="isat_data" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$tt.coverage" NAME="tt Coverage Results" MODIFIED="1739439490161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$train1_2c.coverage" NAME="train1-2c Coverage Results" MODIFIED="1732151679004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$angle_obb_ruijiao.coverage" NAME="angle-obb-ruijiao Coverage Results" MODIFIED="1765244094068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$totalfps.coverage" NAME="totalfps Coverage Results" MODIFIED="1762996331681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$train_2c.coverage" NAME="train-2c Coverage Results" MODIFIED="1732946694693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$size_try3.coverage" NAME="size_try3 Coverage Results" MODIFIED="1761119240800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$size_try0.coverage" NAME="size_try0 Coverage Results" MODIFIED="1765359495362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$SimAm.coverage" NAME="SimAm Coverage Results" MODIFIED="1761211467589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ultralytics/nn/myblocks" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$val.coverage" NAME="val Coverage Results" MODIFIED="1732085573929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$d435.coverage" NAME="d435 Coverage Results" MODIFIED="1762997616183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$onnxfps.coverage" NAME="onnxfps Coverage Results" MODIFIED="1762939021834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$predict.coverage" NAME="predict Coverage Results" MODIFIED="1761658106559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$train.coverage" NAME="train Coverage Results" MODIFIED="1729510565095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$angle_compare.coverage" NAME="angle_compare Coverage Results" MODIFIED="1765288029224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$checkkeep.coverage" NAME="checkkeep Coverage Results" MODIFIED="1765584992549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$train_myblock.coverage" NAME="train-myblock Coverage Results" MODIFIED="1761228216669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$feature.coverage" NAME="feature Coverage Results" MODIFIED="1739541249143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$train_1.coverage" NAME="train-1 Coverage Results" MODIFIED="1765334013863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$model.coverage" NAME="model Coverage Results" MODIFIED="1734098887492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ultralytics/models/yolo" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$size_try2.coverage" NAME="size_try2 Coverage Results" MODIFIED="1761876027577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$train_ssh.coverage" NAME="train-ssh Coverage Results" MODIFIED="1740813004087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$cudatime.coverage" NAME="cudatime Coverage Results" MODIFIED="1763537676725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$predict_fig.coverage" NAME="predict_fig Coverage Results" MODIFIED="1765629448714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$CAFM.coverage" NAME="CAFM Coverage Results" MODIFIED="1761726683672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ultralytics/nn/myblocks" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$01.coverage" NAME="01 Coverage Results" MODIFIED="1729501392949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$pytest_in_test_cuda_py.coverage" NAME="pytest in test_cuda.py Coverage Results" MODIFIED="1729478592398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$01.coverage" NAME="01 Coverage Results" MODIFIED="1762309318284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$p.coverage" NAME="p Coverage Results" MODIFIED="1765629152002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$val.coverage" NAME="val Coverage Results" MODIFIED="1767165089927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$yolo_p_to_isat.coverage" NAME="yolo_p_to_isat Coverage Results" MODIFIED="1761791780291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$angle__1_.coverage" NAME="angle (1) Coverage Results" MODIFIED="1740208071258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$angle_2k.coverage" NAME="angle-2k Coverage Results" MODIFIED="1765244948269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$fps.coverage" NAME="fps Coverage Results" MODIFIED="1765546382043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$predict_outofmemory.coverage" NAME="predict_outofmemory Coverage Results" MODIFIED="1760489121798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$yuanclustershuo.coverage" NAME="yuanclustershuo Coverage Results" MODIFIED="1765110193775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$printlayers.coverage" NAME="printlayers Coverage Results" MODIFIED="1765279406852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$angle_draw.coverage" NAME="angle_draw Coverage Results" MODIFIED="1765627754293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$size_try1.coverage" NAME="size_try1 Coverage Results" MODIFIED="1765587039728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$iRMB.coverage" NAME="iRMB Coverage Results" MODIFIED="1761726373928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ultralytics/nn/myblocks" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$trans.coverage" NAME="trans Coverage Results" MODIFIED="1762939010865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$02.coverage" NAME="02 Coverage Results" MODIFIED="1739502976757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$predict.coverage" NAME="predict Coverage Results" MODIFIED="1732006749802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$weight.coverage" NAME="weight Coverage Results" MODIFIED="1761552215142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$angle.coverage" NAME="angle Coverage Results" MODIFIED="1765268386404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$val_ssh.coverage" NAME="val-ssh Coverage Results" MODIFIED="1740829536643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main_multi$zed_video.coverage" NAME="zed_video Coverage Results" MODIFIED="1760496714615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
