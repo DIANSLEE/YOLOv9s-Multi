@@ -1,4 +1,4 @@
-# 
+# YOLOv9s-Multi
 This repository contains the code and dataset for the paper _YOLOv9s-Multi: Orientation-Based Fruit Selection for Robotic Apple Thinning_.  
 The OBB (Oriented Bounding Box) comparative experiments are based on MMRotate and Ultralytics YOLO.   
 (waiting the final figures)  
