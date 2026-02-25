@@ -1,6 +1,5 @@
 from ultralytics import YOLO
 if __name__ == '__main__':
-    # build.YOLODataset = YOLOWeightedDataset
     model = YOLO("yolov9s-multi.yaml").load("yolov9s.pt")  # build from YAML and transfer weights
     
     results = model.train(
