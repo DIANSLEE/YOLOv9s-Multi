@@ -6,6 +6,8 @@ The OBB (Oriented Bounding Box) comparative experiments are based on MMRotate an
 The dataset and code can be downloaded (Baidu): https://pan.baidu.com/s/1EqHlkvU8H5EUnCFpzZUCkg?pwd=chak   
 Or Google Drive: https://drive.google.com/drive/folders/1a3eRdFsPp-1PQB6WrNO6_lbgPUYTWyGq?usp=drive_link  
 If the link is not work please contact to the author: 1837235434@qq.com
+# Notices
+Please follow all details by official Ultralytics and MMRotate, this instruction is a simply guiding. If you are trying to set up the environment.
 # Installation
 This paper code is based on Ultralytics YOLO, readers should using the [official installation](https://docs.ultralytics.com/quickstart/).  
 The environment for YOLOv9s-Multi in a Python>=3.10 environment with PyTorch>=2.0.1:
