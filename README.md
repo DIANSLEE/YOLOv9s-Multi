@@ -1,4 +1,4 @@
-# YOLOv9s-Multi
+# 
 This repository contains the code and dataset for the paper _YOLOv9s-Multi: Orientation-Based Fruit Selection for Robotic Apple Thinning_.
 The OBB (Oriented Bounding Box) comparative experiments are based on MMRotate and Ultralytics YOLO.  
 (waiting the final figures)
@@ -10,6 +10,8 @@ If the link is not work please contact to the author: 1837235434@qq.com
 This paper code is based on Ultralytics YOLO. 
 The environment for YOLOv9s-Multi in a Python>=3.10 environment with PyTorch>=2.0.1:
 ```bash
+pip install ultralytics
+
 cd YOLOv9s-Multi
 pip install -e .
 ```
@@ -37,6 +39,7 @@ mmrotate/
 │   └── _base_/schedules/
 │       └── schedule_2x.py
 ```
+For all the model, after training, it can be evaluate by the official evaluation.
 ```bash
 cd mmrotate
 python tools/train.py configs/rotated_retinanet/rotated_retinanet.py
@@ -49,10 +52,13 @@ YOLOv9s-Multi/
 │ ├── images/ # all images here
 │ └── labels/ # corresponding labels here
 ```
-Before running demo.py, change the path to your own.
+Before running demo.py, change the path to your own.  
+We provide best.pt model weight in the dataset link.   
 ```bash
+cd YOLOv9s-Multi
 python demo.py
 ```
-We also provide best.pt model weight in the dataset link.
+
+Demo result:
 ![IMG_20230507_084843](https://github.com/user-attachments/assets/5ed80dcb-3b74-4119-af39-9b2d3dd8c227)
 
