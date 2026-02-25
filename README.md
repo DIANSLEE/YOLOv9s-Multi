@@ -43,6 +43,7 @@ mmrotate/
 cd mmrotate
 python tools/train.py configs/rotated_retinanet/rotated_retinanet.py
 ```
+# Evaluation
 For all the model, after training, it can be evaluate by the official evaluation ([YOLO](https://docs.ultralytics.com/modes/val/#usage-examples)).
 
 # Demo
