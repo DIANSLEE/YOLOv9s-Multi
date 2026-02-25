@@ -58,6 +58,12 @@ We provide best.pt model weight in the dataset link.
 cd YOLOv9s-Multi
 python demo.py
 ```
+# Modification
+Copy this:
+```bash
+# 改动点
+```
+You can find the all modifications.
 
 Demo result:
 ![IMG_20230507_084843](https://github.com/user-attachments/assets/5ed80dcb-3b74-4119-af39-9b2d3dd8c227)
