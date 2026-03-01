@@ -28,7 +28,10 @@ PyTorch>=2.0.1
 ```
 # Running the code
 Please put the YOLO dataset as Ultralytics official settings (./ultralytics/data/images and ./ultralytics/data/labels). The directory change to your own path.  
-For YOLO, you can use the train.py and changing the config files to change the task.
+For YOLO, you can use the train.py and changing the config files to change the task.  
+```bash
+YOLO label format: <class_id> <x_center> <y_center> <width> <height> <keypoint_x> <keypoint_y> <visibility> <segment>
+```
 ```bash
 python train.py
 ```
@@ -71,9 +74,6 @@ YOLOv9s-Multi/
 ├── data/
 │ ├── images/ # all images here
 │ └── labels/ # corresponding labels here (in the repository)
-
-YOLO label format: <class_id> <x_center> <y_center> <width> <height> <keypoint_x> <keypoint_y> <visibility> <segment>
-
 ```
 Before running demo.py, change the path to your own.  
 We provide best.pt model weight in the dataset link.   
