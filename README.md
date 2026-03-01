@@ -72,7 +72,7 @@ YOLOv9s-Multi/
 │ ├── images/ # all images here
 │ └── labels/ # corresponding labels here (in the repository)
 
-YOLO label format: <class_id> <x_center> <y_center> <width> <height> <keypoint_x> <keypoint_y> <visibility> <segment_class> [segmentation_polygon_points]
+YOLO label format: <class_id> <x_center> <y_center> <width> <height> <keypoint_x> <keypoint_y> <visibility> <segment>
 
 ```
 Before running demo.py, change the path to your own.  
