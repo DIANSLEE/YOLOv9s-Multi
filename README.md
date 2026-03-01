@@ -32,6 +32,7 @@ For YOLO, you can use the train.py and changing the config files to change the t
 ```bash
 python train.py
 ```
+The standard OBB implement by official code, and the 360 degree variants are implement at [YOLOv9s-OBB-360](https://github.com/DIANSLEE/u2j-obb) and [MMRotate-360](https://github.com/DIANSLEE/mm). The author does not change the running operations, readers should follow the official instructions to re-implement.  
 For MMRotate, the config file is in the repository:
 ```bash
 mmrotate/
@@ -40,6 +41,22 @@ mmrotate/
 │   │   └── rotated_retinanet.py
 │   └── _base_/schedules/
 │       └── schedule_2x.py
+
+
+mmrotate/data/
+          ├── train/
+          │   ├── images/
+          │   │   ├── 0001.jpg
+          │   │   ├── 0002.jpg
+          │   │   └── ...
+          │   └── annfiles/
+          │       └── 0001.txt
+          ├── val/
+          │   ├── images/
+          │   └── annfiles/
+          └── test/
+              ├── images/
+              └── annfiles/
 ```
 ```bash
 cd mmrotate
@@ -53,7 +70,7 @@ For all the model, after training, it can be evaluate by the official evaluation
 YOLOv9s-Multi/
 ├── data/
 │ ├── images/ # all images here
-│ └── labels/ # corresponding labels here
+│ └── labels/ # corresponding labels here (in the repository)
 ```
 Before running demo.py, change the path to your own.  
 We provide best.pt model weight in the dataset link.   
