@@ -72,8 +72,7 @@ YOLOv9s-Multi/
 │ ├── images/ # all images here
 │ └── labels/ # corresponding labels here (in the repository)
 
-<class_id> <x_center> <y_center> <width> <height> <keypoint_x> <keypoint_y> <visibility> <segment_class> [segmentation_polygon_points]
-<img width="1512" height="253" alt="image" src="https://github.com/user-attachments/assets/3959436a-49a7-46b4-bffa-f8b4184d0673" />
+YOLO label format: <class_id> <x_center> <y_center> <width> <height> <keypoint_x> <keypoint_y> <visibility> <segment_class> [segmentation_polygon_points]
 
 ```
 Before running demo.py, change the path to your own.  
